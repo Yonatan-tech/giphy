@@ -21,7 +21,7 @@ $(".search-button").click(function(){
         console.log(data.data[Math.floor(Math.random() * data.data.length)].images.original.url);
         
         $('').append();
-        $(".main").append("<img src =" + (data.data[Math.floor(Math.random() * data.data.length)].images.original.url) + ">");
+        $(".main").html("<img src =" + (data.data[Math.floor(Math.random() * data.data.length)].images.original.url) + ">");
         });
 
  
